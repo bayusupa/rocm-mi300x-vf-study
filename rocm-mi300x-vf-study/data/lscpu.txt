@@ -1,0 +1,31 @@
+Architecture:                            x86_64
+CPU op-mode(s):                          32-bit, 64-bit
+Address sizes:                           46 bits physical, 57 bits virtual
+Byte Order:                              Little Endian
+CPU(s):                                  20
+On-line CPU(s) list:                     0-19
+Vendor ID:                               GenuineIntel
+BIOS Vendor ID:                          QEMU
+Model name:                              INTEL(R) XEON(R) PLATINUM 8568Y+
+BIOS Model name:                         pc-q35-6.1  CPU @ 2.0GHz
+CPU family:                              6
+Model:                                   207
+Thread(s) per core:                      1
+Core(s) per socket:                      20
+Socket(s):                               1
+Stepping:                                2
+BogoMIPS:                                4600.00
+Virtualization:                          VT-x
+Hypervisor vendor:                       KVM
+Virtualization type:                     full
+L1d cache:                               640 KiB (20 instances)
+L1i cache:                               640 KiB (20 instances)
+L2 cache:                                80 MiB (20 instances)
+NUMA node(s):                            1
+NUMA node0 CPU(s):                       0-19
+
+Notes:
+- Virtualized Intel Xeon Platinum 8568Y+ via KVM
+- 20 vCPU cores available to guest
+- Not AMD CPU — separate from MI300X embedded ARM/x86 cores
+- AVX-512 support available (avx512f, avx512dq, avx512bw, avx512vl, avx512_bf16)

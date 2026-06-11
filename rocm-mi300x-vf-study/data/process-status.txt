@@ -1,0 +1,33 @@
+Name:   alpha-bin
+Umask:  0022
+State:  S (sleeping)
+Tgid:   8280
+Pid:    8280
+PPid:   8145
+Uid:    0       0       0       0
+Gid:    0       0       0       0
+VmPeak: 39773252 kB
+VmSize: 39771208 kB
+VmHWM:   1489896 kB
+VmRSS:   1489896 kB
+RssAnon:         1309616 kB
+RssFile:           89712 kB
+RssShmem:          90568 kB
+VmData:  1372164 kB
+VmStk:       152 kB
+VmExe:       460 kB
+VmLib:    114356 kB
+Threads:        5
+Cpus_allowed:   fffff
+Cpus_allowed_list:      0-19
+Mems_allowed_list:      0
+voluntary_ctxt_switches:        338567378
+nonvoluntary_ctxt_switches:     423
+
+Notes:
+- Process has been running since Jun 8 (~72+ hours continuous)
+- CPU usage reported at 101% (multi-threaded)
+- Only 5 threads despite 20 available CPU cores
+- VRAM allocated: 5,865,951,232 bytes (~5.87 GB)
+- SDMA used: 0 (DMA engine unused)
+- CU Occupancy: 0 (reported — likely metric not supported on VF)
